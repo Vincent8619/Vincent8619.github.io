@@ -1,0 +1,65 @@
+body, html {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background-image: url("Arizona.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#large_container {
+    background-color: lightblue;
+    border-style: solid;
+    border-width: 5px;
+    border-color: teal;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 95%;
+    width: 50%;
+    padding: 0px 25px 25px 25px;
+    overflow: scroll;
+    overflow-x: hidden;
+    font: 12pt monaco, serif;
+}
+
+#large_container h1 {
+    text-align: center;
+    border: 5px solid teal;
+    background-color: white;
+    box-shadow: 7px 7px;
+}
+
+.info {
+    border: 5px solid teal;
+    background-color: white;
+    box-shadow: 7px 7px;
+    padding: 0px 20px 0px 20px;
+}
+
+.pics {
+    width: 175px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pics img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 5px solid teal;
+    box-shadow: 7px 7px;
+    margin: 20px 0px 25px 0px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
